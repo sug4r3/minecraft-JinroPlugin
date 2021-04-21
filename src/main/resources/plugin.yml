@@ -1,0 +1,20 @@
+name: JinroPlugin
+version: ${project.version}
+main: com.github.sug4r3.jinroplugin.jinroplugin.JinroPlugin
+api-version: 1.16
+
+commands:
+  jinro:
+    description: 人狼ゲームの主となるコマンド
+
+  em_timer:
+    description: エメラルドタイマーコマンド
+
+  init_gamerule:
+    description: サーバー初回起動時の設定用
+
+  give_jinro:
+    description: 人狼関連のアイテム取得
+
+  summon_jinro:
+    description: 人狼関連のエンティティ召喚
